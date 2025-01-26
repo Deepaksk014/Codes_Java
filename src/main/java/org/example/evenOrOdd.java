@@ -12,7 +12,7 @@ public class evenOrOdd {
     }
 
     private static void checkEvenOrOdd(int num) {
-        if((num/2)== 0){
+        if(num % 2 == 0){
             System.out.println("its even");
         }else {
             System.out.println("its odd");
