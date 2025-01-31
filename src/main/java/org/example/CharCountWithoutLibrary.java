@@ -8,7 +8,7 @@ public class CharCountWithoutLibrary {
         System.out.println("enter a string.");
         String str= sc.nextLine();
 
-        int[] count= new int[256];
+        int[] count= new int[256]; // ASCII table values have 0 - 255
 
         for(char c : str.toCharArray()){
             count[c]++;
