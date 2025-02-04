@@ -15,7 +15,9 @@ public class removeWhiteSpaceUsingStream {
     }
 
     private static String removeSpaceUsingStream(String s) {
-        s = s.chars().filter(c ->!Character.isWhitespace(c)).mapToObj(c -> String.valueOf((char)c )).collect(Collectors.joining());
+        s = s.chars().filter(c ->!Character.isWhitespace(c))
+                .mapToObj(c -> String.valueOf((char)c ))
+                .collect(Collectors.joining());
      return s;
     }
 

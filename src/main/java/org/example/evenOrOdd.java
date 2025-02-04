@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.Scanner;
+import java.util.function.Predicate;
 
 public class evenOrOdd {
 
@@ -17,5 +18,18 @@ public class evenOrOdd {
         }else {
             System.out.println("its odd");
         }
+
+
+
+//        Predicate<Integer> isEven= n -> n%2==0;
+//
+//        System.out.println("enter a number");
+//        int num=sc.nextInt();
+//
+//        if (isEven.test(num)){
+//            System.out.println("its even");
+//        }else {
+//            System.out.println("its odd");
+//        }
     }
 }
