@@ -12,7 +12,7 @@ public class InvertedPyramid {
 
     }
 
-    //github link success
+
 
 
     private static void invertedPyramid(int num) {
